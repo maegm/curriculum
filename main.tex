@@ -1,0 +1,202 @@
+%! Author = mgutierrez
+%! Date = 09-01-2021
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Mauricio}{Gutiérrez Martínez}
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Tercera Avenida 1221, San Miguel, Santiago}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+56 9 91466468}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{mauriciogutierrez@ug.uchile.cl}                               % optional, remove / comment the line if not wanted
+\homepage{www.linkedin.com/in/maegm91/}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{Soy Data Scientist. Poseo experiencia desarrollando modelos de machine learning aplicados en áreas de marketing y logística, participando en las etapas de planteamiento de las soluciones, preprocesamiento de datos, solución matemática y puesta en producción de los modelos.
+En cuanto a mis características personales me gusta aprender cosas nuevas, soy una persona con una gran capacidad analítica a la hora de abordar problemas, optimizar tareas y aprendo continuamente de mis errores. También soy empático, sociable y sin problemas para trabajar en equipo.}
+
+\section{Experiencia laboral}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{Marzo 2019--Actualidad}{Data Scientist}{CCU S.A}{Santiago}{}{\vspace{3pt}Desarrollo de soluciones para problemas de logística y marketing utilizando herramientas de machine learning: \\
+- Segmentación de clientes de CCU Chile de acuerdo a potencial de crecimiento. \\
+- Estimación de ventanas horarias de atención de clientes para entrega de productos, de modo de optimizar el tiempo en ruta de la flota de camiones.}}
+
+\vspace{6pt}
+
+\item{\cventry{Marzo 2018--Julio 2018}{Ingeniero de estudios}{Systep Ingeniería y Diseños}{Santiago}{}{\vspace{3pt}Estudios realizados: \\
+- Participación en Estudio de Tarificación de SSMM 2019-2022, donde desarrollé estudios eléctricos en DigSILENT PowerFactory para validar los planes propuestos en el ET de modo que cumplan con la NTSyCS de SSMM; \\
+- Estudio de conexión para PMGD Meyen: flujo de potencia, cortocircuito y protecciones utilizando DigSILENT PowerFactory.}}
+
+\vspace{6pt}
+
+\item{\cventry{Enero 2016--Febrero 2016}{Practicante en subgerencia de generación}{Sociedad Austral de Electricidad S.A (SAESA)}{Osorno}{}{\vspace{3pt}Funciones: \\ - Desarrollo, en conjunto de un equipo multidisciplinario, de un plan de mantenimiento que disminuye las HH dedicadas al mantenimiento de las instalaciones de generación de SAGESA. \\
+- Integración de las múltiples bases de datos de las instalaciones de generación en una sola, de modo de hacer más simple la consulta de datos. \\
+- Trabajo en terreno en mantenimiento de generador diesel junto a equipo de mantenimiento de la subgerencia.
+}}
+
+\vspace{6pt}
+
+\item{\cventry{Diciembre 2014 - Enero 2015}{Practicante}{Programa de Estudios e Investigaciones en Energía; U. de Chile}{Santiago}{}{}}
+
+\vspace{6pt}
+
+\item{\cventry{Diciembre 2013 - Enero 2014}{Practicante en Telefónica Empresas}{Telefónica Chile S.A}{Santiago}{}{}}
+
+\vspace{6pt}
+
+\item{\cventry{Enero 2013 - Febrero 2013}{Guía de Museo}{Museo Interactivo Mirador (MIM)}{Santiago}{}{}}
+
+\end{itemize}
+
+\section{Educación}
+
+\vspace{5pt}
+
+\subsection{Antecedentes académicos}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2018}{Ingeniería Civil Eléctrica}{Universidad de Chile}{Santiago}{}{}}
+
+\vspace{6pt}
+
+%\item{\cventry{2002--2009}{11 GCSEs}{Southlands High School}{Chorley}{\textit{A* to B Including Maths and English}}{}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\subsection{Publicaciones}
+
+%\begin{twenty} % Environment for a short list with no descriptions
+%	\twentyitem{2018}{}{Memoria de título: \textit{"Planificación de la expansión de sistemas eléctricos, considerando la vida útil de centrales geotérmicas"}}{}{}{}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twenty}
+\begin{itemize}
+
+\item{
+L. Vargas, T. González, M. Gutiérrez, P. Guzmán, and M. Matus, “Geothermal energy in electricity markets and decarbonisation scenarios: The chilean case”, {\em IOP Conference Series: Earth and Environmental Science}, vol. 188, no. 1, p. 012035, 2018. [Online]. Disponible en: \url{http://stacks.iop.org/1755-1315/188/i=1/a=012035}
+\\ }
+\end{itemize}
+
+\subsection{Actividades docentes}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2014--Otoño 2016}{Ayudante en curso de Electromagnetismo Aplicado.}{Universidad de Chile}{Santiago}{}{\vspace{3pt}}}
+
+\item{\cventry{Primavera 2013--Otoño 2014}{Ayudante de laboratorio en curso de Análisis y Diseño de Circuitos Eléctricos.}{Universidad de Chile}{Santiago}{}{\vspace{3pt}}}
+
+\end{itemize}
+
+\section{Competencias técnicas y personales}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Habilidades computacionales:} Conocimientos y experiencia en: Python, SQL, Docker, Jenkins, TeX \\ Otros conocimientos: Java (básico), Apache Kafka (básico).
+
+\vspace{6pt}
+
+\item \textbf{Idiomas:} Inglés (Intermedio)
+
+\vspace{6pt}
+
+\item \textbf{Habilidades generales:} correcto trabajo en equipo, buena redacción y tengo y facilidad para aprender de forma autodidacta.
+%Good presentation skills, Works well in a team.
+
+%\vspace{6pt}
+
+%\item \textbf{Otras:} Good soldering and spot welding skills, Can write well organised and structured reports.
+
+\end{itemize}
+
+\section{Otras actividades}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{Me gusta tocar música. Disfruto en mi tiempo libre leyendo sobre armonía, orquestación, etc.}
+
+\end{itemize}
+
+%\section{References}
+
+%\vspace{6pt}
+
+%\begin{itemize}
+
+%\item{Up to 4 references available on request}
+
+%\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
